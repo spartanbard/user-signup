@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <body>
+        <form action="/validate" method="post">
+            <label for="username">Username: {{user_val}}</label>
+            <input id="username" type="text" name="username" value="{{username}}" />
+            <br />
+            <label for="password">Password: {{pass_val}}</label>
+            <input id="password" type="password" name="password" />
+            <br />
+            <label for="vpassword">Verify Password:{{pswrd_val}}</label>
+            <input id="vpassword" type="password" name="vpassword" />
+            <br />
+            <label for="email">Email (optional):</label>
+            <input id="email" type="text" name="email" value="{{email}}" />
+            <br />
+            <input type="submit" />
+        </form>
+    </body>
+</html>
